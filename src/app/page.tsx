@@ -16,9 +16,9 @@ export default function App() {
           <ul className={navbar.navbarUl}>
 
 
-            <li className={navbar.navbarLi}><button>Sign up</button></li>
+            <li className={navbar.navbarLi}><Link href='/dashboard'>Sign up</Link></li>
 
-            <li className={navbar.navbarLi}><button>Sign in</button></li>
+            <li className={navbar.navbarLi}><Link href='/dashboard'>Sign in</Link></li>
 
 
           </ul>
