@@ -34,9 +34,7 @@ export async function updateUser({userId,name,username,image}:Params):Promise<vo
             },
             {upsert:true}
         );
-            if(path){
-                revalidatePath(path);
-            }
+           
     } catch (error:any) {
         throw new Error(`Failed to create/update user: ${error.message}`);
 

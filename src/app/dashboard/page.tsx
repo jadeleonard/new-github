@@ -12,7 +12,7 @@ export default async function Dashboard(){
 
             <UserButton afterSignOutUrl="/" />
             <UserProfile />
-
+            
         
         </div>  
     )
