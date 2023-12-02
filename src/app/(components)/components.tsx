@@ -41,3 +41,12 @@ export const navbarAuthenticated = {
     "navbarLogo":"font-bold text-2xl mx-auto",
 
 }
+
+
+export const Links = ([
+    {name:"sign-in",href:"/sign-in"}
+])
+
+
+
+    
