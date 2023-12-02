@@ -11,9 +11,9 @@ export default async function Dashboard(){
         <div>
 
             <UserButton afterSignOutUrl="/" />
-
+            <UserProfile />
 
         
-        </div>
+        </div>  
     )
 }
